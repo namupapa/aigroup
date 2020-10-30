@@ -1,0 +1,24 @@
+이자율 조회 > 승인 > 약관동의     > 서류제출    > 서류통과 (=심사) > 심사승인(=JBCR) > 실행
+                                                                                                                        > 미실행
+                                                                                              > 심사승인 X
+
+                                                                   > 서류통과 X 
+                                                          
+                                               > 서류제출 X
+                           > 약관동의 X
+                 > 거절
+
+css.unsecured_loan_application (신용대출)
+ 1) 이자율 조회
+ 2)  is_rejected = R-CLIPS 거절 (DSR 거절은 별도코딩으로 되어있어 제외)
+     
+css.secured_loan_application
+아담대 이자율 조회
+ 1) 아담대 
+
+pfproduct.loan_application (부동산, 신용대출)
+ 2) 약관동의 ~
+
+
+
+
